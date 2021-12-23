@@ -1,0 +1,20 @@
+.container {
+    flex-direction: column;
+    margin: 50px auto;
+    border: 12px solid #E1E1E1;
+    width: 730px;
+    height: 230px;
+    border-radius: 25px;
+}
+.badge {
+    padding: 40px;
+}
+
+.badge__hello {
+    font-size: 50px;
+}
+
+.badge__date {
+    font-size: 35px;
+    line-height: 0.2em;
+}
