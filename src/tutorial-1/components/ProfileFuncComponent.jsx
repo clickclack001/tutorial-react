@@ -7,7 +7,7 @@ const ProfileFuncComponent = (props) => {
             <h1 style={{textAlign: 'center'}}>Домашнее задание к уроку №1</h1>
             <div className="container">
                 <div className="badge">
-                    <span className="badge__hello">Привет, <b>{props.name}!</b></span>
+                    <span className="badge__hello">Привет, <b>{props.name.split(" ", 1)}!</b></span>
                     <p className="badge__date">Дата регистрации: {dateToStr(props.registredAt)}</p>
                 </div>
             </div>

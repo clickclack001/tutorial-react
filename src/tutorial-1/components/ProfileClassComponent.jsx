@@ -15,7 +15,7 @@ class ProfileClassComponent extends React.Component {
             <div>
                 <div className="container">
                     <div className="badge">
-                        <span className="badge__hello">Привет, <b>{this.props.name}!</b></span>
+                        <span className="badge__hello">Привет, <b>{this.props.name.split(" ", 1)}!</b></span>
                         <p className="badge__date">Дата регистрации: {this.dateToStr(this.props.registredAt)}</p>
                     </div>
                 </div>
