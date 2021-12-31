@@ -1,0 +1,27 @@
+* {
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 50px auto;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+}
+
+.cb {
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
