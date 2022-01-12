@@ -39,7 +39,7 @@ const AccountInfo = ({ account }) => {
             <ul className="app-user_location">
                 <li className="app-user_location-item">{account.location}</li>
                 <li className="app-user_location-item">
-                    <a href="http://archakov.im">{account.blog}</a>
+                    <a href={account.blog}>{account.blog}</a>
                 </li>
             </ul>
         </div>
